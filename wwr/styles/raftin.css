@@ -37,23 +37,37 @@ nav a {
 
 /* Hero Section */
 .hero {
-  position: relative;
-  overflow: hidden;
+  background-image: url('https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting59_600.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Ajusta la altura según sea necesario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  
 }
 
 .hero img {
   display: block;
-  width: 800px;
+  width: 100px;
   height: auto;
 }
 
 .hero-overlay {
+  color: white;
   width: 50%; 
     padding: 20px;
     text-align: left; 
     background: rgba(0, 0, 0, 0.5); 
 }
+.hero-overlay h1 {
+  color: blue; }
 
+  .hero-overlay p {
+    color: #ffffff;
+  }
 h1 {
   text-align: center;
   color: #555;
@@ -97,6 +111,86 @@ p {
   width: 200px;
   height: auto;
   border-radius: 10px;
+}
+/*temam section*/
+.team-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+}
+.team-gallery img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/*company info*/
+.company-info {
+  text-align: center;
+  padding: 20px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 15px;
+}
+
+.map-container iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  border: none;
+}
+/*contac*/
+.contact-form {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form fieldset {
+  border: none;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.contact-form button {
+  background-color: #799287;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #5f7878;
 }
 
 /* Footer */
