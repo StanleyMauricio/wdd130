@@ -70,8 +70,7 @@ h1{
   width: 125px;
 }
 .socialmedia{
-  position: relative;
-  justify-content: center;
+  position: relative;  
   gap: 15px;
   margin-bottom: 10px;
 }
@@ -79,4 +78,5 @@ h1{
 .socialmedia img {
   width: 40px;
   height: 40px;
+  
 }
