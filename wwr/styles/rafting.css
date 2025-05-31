@@ -163,8 +163,7 @@ h1, h2 {
 }
 .adventure-grid img{
   width: 100%;
-  height: 120;
-  
+  height: 120px;  
 }
 footer{
   background-color:var(--primary-color);
