@@ -1,14 +1,14 @@
 :root{
   --primary-color: #283E67;
-  --secondary-color: #558DB4;
-  --accent1-color: #4BAA89;
-  --accent2-color:#315E45;
+  --secondary-color: #9CBCD3;
+  --accent1-color: #7FC7AE;
+  --accent2-color:#83BE9E;
   --heading-font:"Dramaturgia Indian",sans-serif;
   --body-font:"Montserrat",sans-serif;
 
 }
 header{
-  background-color: var(--primary-color);
+  background-color: var(--primary-color); 
   color:var(--accent2-color); 
   display: grid;
   grid-template-columns: 1fr 3fr;
