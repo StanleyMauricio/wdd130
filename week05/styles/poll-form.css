@@ -6,6 +6,7 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2em;
+    color: #333;
     background: #fff;
 }
 header{
@@ -43,7 +44,7 @@ label,input,button,select,textarea{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 label{
-    text-align: left;
+    text-align: right;
     padding-right: 1rem;
 }
 input,select,textarea {
@@ -57,14 +58,14 @@ input[type="checkbox"]{
 }
 button{
     margin: 2rem;
-    background-color: gainsboro;
-    color: black;
+    background-color: navy;
+    color: #fff;
     border-radius: .3rem;
     padding: 0.75rem;
     font-size: 1.2rem;
 }
 button:hover{
-    background-color: green;
+    background-color: darkgreen;
 }
 footer{
     margin: 1rem auto 0;
