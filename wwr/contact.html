@@ -94,16 +94,16 @@
                 
                 <fieldset>
                     <legend>do you want to book an appointment?:</legend>          
-                    <label><input type="radio" name="purpose" value="general_inquiry" required>General Inquiry</label><br>
-                    <label><input type="radio" name="purpose" value="booking_question">Booking Question</label><br>
-                    <label><input type="radio" name="purpose" value="website_suggestion">Website Suggestion</label>
+                       <label for="purpose_general"><input type="radio" id="purpose_general" name="purpose" value="general_inquiry" required>General Inquiry</label><br>
+                       <label for="purpose_booking"><input type="radio" id="purpose_booking" name="purpose" value="booking_question">Booking Question</label><br>
+                       <label for="purpose_website"><input type="radio" id="purpose_website" name="purpose" value="website_suggestion">Website Suggestion</label>
                 </fieldset>
                
                 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
                 
-                <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
+                <label for="newsletter_checkbox"><input type="checkbox" id="newsletter_checkbox" name="newsletter"> Subscribe me to the monthly newsletter</label>
                 
                 <button type="submit">Send Message</button>
             </form>
