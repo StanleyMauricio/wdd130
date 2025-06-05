@@ -196,6 +196,7 @@ h1, h2 {
   display: flex;
   gap: 15px;
   margin-bottom: 10px;
+  background-color: var(--primary-color); 
 }
 
 .socialmedia img {
@@ -313,4 +314,11 @@ h1, h2 {
 
 .contact-form button:hover {
     background-color:var(--accent1-color);
+}
+.map iframe {
+    width: 100%; /* Asegura que ocupe el ancho de su contenedor */
+    height: 450px; /* O el alto que desees */
+    border: 1px solid var(--secondary-color); /* Ejemplo de borde */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
