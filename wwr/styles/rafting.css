@@ -206,7 +206,7 @@ h1, h2 {
 }
 /* Sección del equipo */
 .team {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: 2rem;
     text-align: center;
 }
