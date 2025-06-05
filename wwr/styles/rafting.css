@@ -165,14 +165,32 @@ h1, h2 {
   width: 100%;
   height: 120px;  
 }
-footer{
-  background-color:var(--primary-color);
-  color: #fff;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-top: 3px solid var(--accent1-color);
+.footer {
+    background-color:var(--primary-color);
+    padding: 1rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid var(--accent1-color);
+    margin-top: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content p {
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+    flex: 1;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
 }
 .socialmedia{
   display: flex;
@@ -184,4 +202,115 @@ footer{
   width: 40px;
   height: 40px;
   
+}
+/* Sección del equipo */
+.team {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Grid de empleados */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+/* Estilo de cada figura (empleado) */
+.team-grid figure {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+}
+
+.team-grid img {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+    object-fit: cover;
+}
+
+.team-grid figcaption {
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.contact-form fieldset {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.contact-form legend {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.contact-form button {
+    background-color: #0077cc;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color:var(--accent1-color);
 }
